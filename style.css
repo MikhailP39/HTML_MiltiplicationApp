@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    background: url('images/6443921.jpg');
+}
+
+.form{
+    margin-top: -100px;
+}
+.input{
+    display: block;
+    width: 60%;
+    background: none;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    transform: translateX(33%);
+}
+.input::placeholder{
+    color: lightgray;
+}
+.btn{
+    background: none;
+    color: white;
+    border: 1px solid #405250;
+    border-radius: 5px;
+    display: block;
+    width: 30%;
+    margin: 20px 160px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    filter: brightness(0.8);
+}
+.score{
+    text-align: left;
+    font-size: 26px;
+}
